@@ -1,0 +1,52 @@
+//primeira questão letra a
+var x = 5;
+var y = 8;
+
+var resultadoA = (x === y);
+console.log("Resultado a:", resultadoA);
+
+//primeira questão letra b
+x = "6";
+y = 6;
+
+var resultadoB = (x !== y);
+console.log("Resultado B: ", resultadoB);
+
+//primeiraquestão letra c
+x = "7";
+y = 7;
+
+var resultadoC = (x == y);
+console.log("Resultado c: ", resultadoC);
+
+//segunda questão
+var nome = "Fulano";
+
+console.log("Boa noite, " + nome + "!");
+
+//terceira questão
+var x = 10
+var y = 5
+x += y;
+console.log("Resultado a:", x);
+
+
+// b) x = x * y (x = 10, y = 5)
+x = 10
+x *= y;
+console.log("Resultado b:", x);
+
+// c) x = x - y (x = 10, y = 10)
+x = 10
+x -= y;
+console.log("Resultado c:", x);
+
+// d) x = x / y 
+x = 10
+x /= y;
+console.log("Resultado d:", x);
+
+// e) x = y
+x = 10
+x = y;
+console.log("Resultado e:", x);
